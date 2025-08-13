@@ -4,10 +4,11 @@
   "description": "A full-stack career guidance chatbot using Node.js/Express, MongoDB, React, and Google Gemini.",
   "main": "index.js",
   "scripts": {
-    "start": "npx concurrently \"npm run server\" \"npm run client\"",
-    "server": "cd backend && npm start",
-    "client": "cd frontend && npm start"
-  },
+  "start": "npm run server & npm run client",
+  "server": "cd backend && npm start",
+  "client": "cd frontend && npm start"
+}
+,
   "author": "",
   "license": "ISC",
   "devDependencies": {
